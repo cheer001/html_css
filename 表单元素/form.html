@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>表单基础</legend>
+
+      <p>
+        <input type="date" name="" id="" />
+      </p>
+      <p>
+        <input type="search" name="" id="" />
+      </p>
+      <p>
+        <input type="range" name="" id="" />
+      </p>
+      <p>
+        <input type="color" name="" id="" />
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>搜索建议</legend>
+
+      <p>
+        <label for="search">请输入你常用的浏览器</label>
+        <input list="userAgent" type="text" />
+      </p>
+      <datalist id="userAgent">
+        <option value="Chrome"></option>
+        <option value="Firefox"></option>
+        <option value="Safari"></option>
+        <option value="Edge"></option>
+      </datalist>
+    </fieldset>
+
+    <fieldset>
+      <legend>自定义radio元素</legend>
+
+      <label>
+        <input name="gender" type="radio" checked />
+        <span class="radio"></span>
+        <span>男</span>
+      </label>
+      <label>
+        <input name="gender" type="radio" />
+        <span class="radio"></span>
+        <span>女</span>
+      </label>
+    </fieldset>
+  </body>
+</html>
