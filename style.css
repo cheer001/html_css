@@ -1,0 +1,16 @@
+a {
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s;
+  display: block;
+}
+
+a::before {
+  content: "#";
+  margin-right: 5px;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
