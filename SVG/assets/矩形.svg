@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="background:#ccc;" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100" height="100" x="100" y="100" fill="lightblue" stroke="#008c8c" stroke-width="5" />
+    <circle cx="150" cy="260" r="50" fill="transparent" stroke="#000" stroke-width="5" />
+    <ellipse rx="50" ry="70" cx="150" cy="390" fill="transparent" stroke="#000" stroke-width="5" />
+    <line x1="10" y1="10" x2="300" y2="100" stroke="#000" stroke-width="5" />
+    <polyline points="300,100,350,100,350,150,400,150,400,200" fill="none" stroke="#000" stroke-width="5" />
+    <polyline points="200,1,150,20,200,40,150,60,200,80,150,100,200,120,150,140,200,160,120,180,200,200,100,250"
+        fill="none" stroke="#000" stroke-width="1" />
+    <polygon points="300,300,400,400,300,500," stroke="#000" fill="none" />
+    <path d="M150 5 L75 200 L 225 200 Z" stroke="#000" stroke-width="3" />
+</svg>
+
+<!-- 
+    rect: 矩形
+        width: 宽度
+        height: 高度
+        x: x轴坐标
+        y: y轴坐标
+        fill: 填充颜色
+        stroke: 边框颜色
+        stroke-width: 边框宽度
+    
+    circle: 圆形
+        cx: 圆心x轴坐标
+        cy: 圆心y轴坐标
+        r: 半径
+        fill: 填充颜色
+        stroke: 边框颜色
+        stroke-width: 边框宽度
+
+    ellipse: 椭圆 椭圆相比于圆形，多了两个属性rx和ry
+        rx: x轴半径
+        ry: y轴半径
+        cx: 椭圆中心x轴坐标
+        cy: 椭圆中心y轴坐标
+        fill: 填充颜色
+        stroke: 边框颜色
+        stroke-width: 边框宽度
+    
+    line: 直线
+        x1: 起点x轴坐标
+        y1: 起点y轴坐标
+        x2: 终点x轴坐标
+        y2: 终点y轴坐标
+        stroke: 边框颜色
+        stroke-width: 边框宽度
+
+    polyline: 折线
+        points: 点的坐标
+            第一个点和最后一个点不需要重合，会自动连接，但是如果重合了，也不会出现缺口
+        stroke: 边框颜色
+        stroke-width: 边框宽度
+        fill: 填充颜色
+
+    polygon: 多边形
+        points: 点的坐标
+            第一个点和最后一个点要重合,否则会出现缺口
+        fill: 填充颜色
+        stroke: 边框颜色
+        stroke-width: 边框宽度
+
+    path: 路径
+        d: 路径
+            M: 移动到
+            L: 画直线到
+            H: 画水平线到
+            V: 画垂直线到
+            C: 画三次贝塞尔曲线
+            S: 画二次贝塞尔曲线
+            Q: 画二次贝塞尔曲线
+            T: 画二次贝塞尔曲线
+            A: 画弧线
+            Z: 关闭路径
+        stroke: 边框颜色
+        stroke-width: 边框宽度
+        fill: 填充颜色
+ -->
